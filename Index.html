@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Freshies SANTIAGO NUÑEZ DAVILA 5TO C</title>
+    <!-- FontAwesome para íconos -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <!-- Archivo CSS Externo con nombre personalizado -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- NAVBAR PRINCIPAL -->
+    <header class="main-header">
+        <nav class="navbar">
+            <a href="#" class="logo">
+                <i class="fa-solid fa-leaf"></i> Freshies_
+    
+            </a>
+
+            <ul class="nav-menu">
+                <li><a href="#Inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#Catalogo" class="nav-link">Catalogo</a></li>
+                <li><a href="#Ofertas" class="nav-link">Ofertas</a></li>
+                <li><a href="#Contacto" class="nav-link">Contacto</a></li>
+            </ul>
+
+            <div class="nav-actions">
+                <div class="search-box">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                    <input type="text" placeholder="Buscar...">
+                </div>
+                <a href="#proyectos" class="btn-nav">Explorar</a>
+            </div>
+        </nav>
+    </header>
+
+    <!-- 1. BANNER HERO -->
+    <section id="Inicio" class="hero-section">
+        <div class="hero-container">
+            <div class="hero-text-content">
+                <div class="hero-tag">
+                    <i class="fa-solid fa-seedling"></i> Innovación Sostenible
+                </div>
+                <h1 class="hero-title">Freshies, <span>fresco todo el dia </span> sin riesgo para mi salud</h1>
+                <p class="hero-description">Descubre nuestro catalogo lleno de jugos hechos de fruta fresca saludables para el cuerpo.</p>
+                
+                <div class="hero-buttons">
+                    <a href="#tipos" class="btn-primary">
+                 <i class="fa-solid fa-arrow-down">Catalogo</i>
+                    </a>
+                    <a href="#Ofertas" class="btn-secondary">Ofertas</a>
+                </div>
+            </div>
+
+            <div class="hero-image-wrapper">
+                <img src="juguito.jpg" alt="Emprendimiento Ambiental" class="hero-image-main">
+                
+                <div class="hero-floating-card">
+                    <i class="fa-solid fa-earth-americas"></i>
+                    <div>
+                        <h4>100% Naturales</h4>
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 2. SECCIÓN: 5 TIPOS DE EMPRENDIMIENTO (DE EXTREMO A EXTREMO) -->
+    <section id="Catalogo" class="full-width-section">
+        <div class="section-header-center">
+            <span class="section-tag">Catalogo</span>
+            <h2 class="section-title">Nuestras Bebidas</h2>
+        </div>
+
+        <div class="full-flex-5">
+            
+            <div class="box-5">
+                <div>
+                    <div class="box-number">01</div>
+                    <i class="fa-solid fa-recycle box-icon"></i>
+                    <h3>Jugo verde Energía</h3>
+                    <img src="verdito 2.jpg" alt="Emprendimiento Ambiental" class="hero-image-main">
+                    <p> Jugo verde clasico con la adicion de ingredientes de la marca que mejoran su sabor</p>
+                </div>
+            </div>
+
+            <div class="box-5">
+                <div>
+                    <div class="box-number">02</div>
+                    <i class="fa-solid fa-leaf box-icon"></i>
+                    <h3>Tropical Fresh </h3>
+                    <img src="tropicalito.jpg" alt="Emprendimiento Ambiental" class="hero-image-main">
+                    <p> Jugo con frutas tropicales hecho principalmente a base de piña, sandia y frutas tropicales.</p>
+                </div>
+            </div>
+
+            <div class="box-5">
+                <div>
+                    <div class="box-number">03</div>
+                    <i class="fa-solid fa-solar-panel box-icon"></i>
+                    <h3>Detox Natural Slush</h3>
+                    <img src="rojito.jpg" alt="Emprendimiento Ambiental" class="hero-image-main">
+                    <p>Jugo fresco a base de frutos rojos e ingredientes naturales.</p>
+                </div>
+            </div>
+
+            <div class="box-5">
+                <div>
+                    <div class="box-number">04</div>
+                    <i class="fa-solid fa-shirt box-icon"></i>
+                    <h3>Coco Natural Slush</h3>
+                    <img src="coqueto.jpg" alt="Emprendimiento Ambiental" class="hero-image-main">
+                    <p>Bebida principalmente a base de coco e ingredientes naturales.</p>
+                </div>
+            </div>
+
+            <div class="box-5">
+                <div>
+                    <div class="box-number">05</div>
+                    <i class="fa-solid fa-seedling box-icon"></i>
+                    <h3>Mix Personalizado</h3>
+                    <img src="juguitos varios.jpg" alt="Emprendimiento Ambiental" class="hero-image-main">
+                    <p> Crea tu propio mix! Elige que frutas usar y crea tu propio sabor!.</p>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- 3. SECCIÓN: PROYECTOS QUE INSPIRAN -->
+    <section id="Ofertas" class="projects-section">
+        <div class="projects-container">
+            <div class="section-header-center">
+                <span class="section-tag">Porque elegirnos?!</span>
+                <h2 class="section-title">Beneficios de nuestros productos</h2>
+            </div>
+
+            <div class="projects-grid">
+                
+                <!-- Proyecto 1: BioPlást Perú -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="jugos buenos para la salud.jpg" alt="BioPlást Perú">
+                        <span class="project-badge">Saludables</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-location"
+                            <i class="fa-solid fa-location-dot"></i> Freshies
+                        </div>
+                        <h3 class="project-title">Buenos para la salud</h3>
+                        <p class="project-text">Nuestros productos incluyen ingredientes totalmente saludables q no son dañinos para la salud, al contrario estos mmejoran varios factores segun el producto </p>
+                        <div class="project-footer">
+                            <a href="#" class="project-link">Saber más <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 2: HuerToTech -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="naturel.jpg" alt="HuerToTech">
+                        <span class="project-badge">100% naturales</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-location"
+                            <i class="fa-solid fa-location-dot"></i> Freshies
+                        </div>
+                        <h3 class="project-title">Hechos naturalmente</h3>
+                        <p class="project-text">Hechos meramente de ingredientes naturales.</p>
+                        <div class="project-footer">
+                            <a href="#" class="project-link">Saber más <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+                <!-- Proyecto 3: ReVive -->
+                <article class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="eco.jpg" alt="ReVive">
+                        <span class="project-badge">Ecofriendly</span>
+                    </div>
+                    <div class="project-body">
+                        <div class="project-location"
+                            <i class="fa-solid fa-location-dot"></i> Freshies
+                        </div>
+                        <h3 class="project-title">Tecnologia ecofriendly</h3>
+                        <p class="project-text">Diseño y comercialización de productos reutilizables de alta estética y durabilidad, reemplazando plásticos de un solo uso en el consumo diario.</p>
+                        <div class="project-footer">
+                            <a href="#" class="project-link">Saber más <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- 4. PIE DE PÁGINA (FOOTER) -->
+    <footer id="contacto">
+        <div class="footer-container">
+            <div class="footer-brand">
+                <h2><i class="fa-solid fa-leaf"></i> EcoVida</h2>
+                <p>Plataforma para la promoción y visibilidad del emprendimiento ambiental.</p>
+            </div>
+
+            <div class="footer-social-wrapper">
+                <h4>Redes de contacto</h4>
+                <div class="social-icons">
+                    <a href="#" class="social-btn" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="social-btn" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="#" class="social-btn" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="#" class="social-btn" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <div class="footer-bottom-flex">
+                <div class="copyright-text">
+                    &copy; Santiago Núñez Dávila. Todos los derechos reservados.
+                </div>
+
+                <div class="footer-slogan">
+                    <i class="fa-solid fa-plant-wilt"></i> Juntos por un Perú Más verde
+                </div>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
